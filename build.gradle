@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+group 'dev.jbs'
+version '1.0.0'
+sourceCompatibility = 11
+
+repositories {
+    jcenter()
+}
+
+javafx {
+    version = "11"
+    modules = ['javafx.controls']
+}
