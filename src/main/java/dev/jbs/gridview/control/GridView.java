@@ -166,9 +166,9 @@ public class GridView<T> extends Control {
     }
 
     /** {@inheritDoc} */
-    @Override public String getUserAgentStylesheet() {
-        return getUserAgentStylesheet(GridView.class, "gridview.css");
-    }
+//    @Override public String getUserAgentStylesheet() {
+//        return getUserAgentStylesheet(GridView.class, "gridview.css");
+//    }
 
     /**************************************************************************
      *
